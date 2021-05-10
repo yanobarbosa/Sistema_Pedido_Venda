@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pentare Cloud Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            /* Para conexão em um servidor BC local, utilizar as seguintes configurações:
+            "server": "https://businesscentral.dynamics.com/86466b74-0140-40b0-99a0-ee0ad6251780|DEV",
+            "serverInstance": "DEV",
+            "authentication": "UserPassword",
+            */
+            "environmentName": "DEV",
+            "schemaUpdateMode": "Synchronize",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "86466b74-0140-40b0-99a0-ee0ad6251780"
+        }
+    ]
+}
